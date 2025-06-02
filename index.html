@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast Notification Test</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <button id="showToastBtn">Show Test Notification</button>
+    <div id="toast-container"></div>
+
+    <script src="test.js"></script>
+    <script>
+        document.getElementById('showToastBtn').addEventListener('click', () => {
+            // Example of calling showToast with specific content
+            showToast({
+                title: "New Service Request",
+                description: "A new service request (ID: SR20240721001) for plot maintenance has been created.",
+                type: 'success', // 'success', 'error', 'warning', 'info', or 'default'
+                // lifetime: 5000, // Optional: override default lifetime
+                // closable: true, // Optional: override default closable
+                // icon: true, // Optional: show/hide icon
+                // onClick: (id) => { console.log(`Toast ${id} clicked!`); } // Optional: click handler
+            });
+        });
+
+        // Example of a notification that might come from a backend or another event
+        // setTimeout(() => {
+        //     showToast({
+        //         title: "System Alert",
+        //         description: "Scheduled maintenance upcoming.",
+        //         type: 'warning'
+        //     });
+        // }, 3000);
+    </script>
+</body>
+</html>
