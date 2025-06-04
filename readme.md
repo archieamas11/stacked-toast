@@ -15,4 +15,9 @@ This test toast notification system inspired by the popular "shadcn sonner" comp
 *   **Click Actions:** Optional `onClick` handler for toasts.
 *   **Animated Entry/Exit:** Smooth animations for toast appearance and disappearance.
 
+## Demo
 ![Demo](assets/demo.gif)
+
+## Planned Feature
+*   **Customizable Positioning:** Configure toast container position (top-left, top-right, bottom-left, bottom-right, top-center, bottom-center).
+*   **Position-Aware Animations:** Toast animations automatically adjust based on selected position (slide from appropriate direction, stack accordingly).
