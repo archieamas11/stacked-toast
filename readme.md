@@ -14,3 +14,5 @@ This test toast notification system inspired by the popular "shadcn sonner" comp
 *   **Customizable Content:** Set title and description for each toast.
 *   **Click Actions:** Optional `onClick` handler for toasts.
 *   **Animated Entry/Exit:** Smooth animations for toast appearance and disappearance.
+
+![Demo](assets/demo.gif)
